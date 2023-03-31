@@ -30,8 +30,19 @@
     margin-bottom: 10px;
     font-size: 30px;
   }
+  .cards{
+    flex-direction: column;
+    align-items: center;
+  }
+  .card{
+    max-width: 270px;
+  }
   .card__title {
     font-size: 22px;
+  }
+  .card__img{
+    width: 270px;
+    height: 245px;
   }
   .project__desc {
     font-size: 22px;
@@ -63,5 +74,12 @@
   }
   .header__title strong {
     font-size: 30px;
+  }
+  .card{
+    width: 220px;
+  }
+  .card__img{
+    width: 220px;
+    height: 190px;
   }
 }
