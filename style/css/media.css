@@ -30,19 +30,19 @@
     margin-bottom: 10px;
     font-size: 30px;
   }
-  .cards{
-    flex-direction: column;
-    align-items: center;
-  }
-  .card{
-    max-width: 270px;
-  }
   .card__title {
     font-size: 22px;
   }
-  .card__img{
-    width: 270px;
-    height: 245px;
+  .cards {
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  .card {
+    width: 300px;
+  }
+  .card__img {
+    width: 300px;
+    height: 250px;
   }
   .project__desc {
     font-size: 22px;
@@ -75,11 +75,11 @@
   .header__title strong {
     font-size: 30px;
   }
-  .card{
-    width: 220px;
+  .card {
+    width: 250px;
   }
-  .card__img{
-    width: 220px;
-    height: 190px;
+  .card__img {
+    width: 250px;
+    height: 220px;
   }
 }
