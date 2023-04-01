@@ -14,10 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
     // 1. Проверка темной темы на уровне системых настроем
-    if(window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches){
-        btnDarkMode.classList.add("dark-mode-btn--active");
-        document.body.classList.add("dark");
-    }
+    // if(window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches){
+    //     btnDarkMode.classList.add("dark-mode-btn--active");
+    //     document.body.classList.add("dark");
+    // }
     // 2. Проверка темной темы в localStorage
     if (localStorage.getItem("darkMode") === "dark"){
         btnDarkMode.classList.add("dark-mode-btn--active");
