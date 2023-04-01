@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.body.classList.remove("dark");
             this.location.setItem("darkMode", "light");
         }
-    })
+    });
     // Нажатие на кнопку режима темы
     btnDarkMode.addEventListener('click', function (e) {
         this.classList.toggle("dark-mode-btn--active");
