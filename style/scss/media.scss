@@ -1,21 +1,20 @@
-@media only screen and (max-width: 604px){
+@media only screen and (max-width: 720px){
+    .header__title{
+        font-size: 30px;
+        strong{
+            font-size: 45px;
+        }
+    }
+
+
     .dark-mode-btn{
         order: 0;
     }
 }
 
-@media only screen and (max-width: 619px){
-    .header{
-        min-height: unset;
-    }
+@media only screen and (max-width: 630px){
     .logo{
         font-size: 17px;
-    }
-    .header__title{
-        font-size: 30px;
-        strong{
-            font-size: 40px;
-        }
     }
 
     .nav__wrapper{
@@ -79,11 +78,20 @@
     }
 }
 
+@media only screen and (max-width: 550px){
+    .header__title{
+        font-size: 22px;
+        strong{
+            font-size: 32px;
+        }
+    }
+}
+
 @media only screen and (max-width: 419px){
     .header__title{
-        font-size: 20px;
+        font-size: 18px;
         strong{
-            font-size: 30px;
+            font-size: 22px;
         }
     }
 

@@ -226,7 +226,6 @@ html, body {
 .dark-mode-btn {
   display: flex;
   justify-content: space-between;
-  order: 9;
   width: 51px;
   height: 26px;
   padding: 5px;
@@ -304,7 +303,8 @@ ul.menu a.menu__link.active::before {
 
 .header__wrapper {
   padding: 0 15px;
-  max-width: 660px;
+  max-width: 720px;
+  border: white;
 }
 
 .header__title {
