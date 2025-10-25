@@ -6,7 +6,6 @@
         }
     }
 
-
     .dark-mode-btn{
         order: 0;
     }
@@ -25,8 +24,8 @@
     }
 
     .title-1{
+        font-size: 50px;
         margin-bottom: 30px;
-        font-size: 40px;
     }
     
     .title-2{
@@ -49,14 +48,18 @@
         width: 300px;
         height: 250px;
     }
+    .card__title{
+        font-size: 18px;
+    }
     
+    // Project
     .project__desc{
         font-size: 22px;
         margin-bottom: 20px;
     }
 
     .content__list{
-        row-gap: 20px;
+        row-gap: 30px;
     }
     
     .content__item {
@@ -84,6 +87,16 @@
         strong{
             font-size: 32px;
         }
+    }
+   
+    .card__title{
+        font-size: 16px;
+    }
+
+
+    // Contacts
+    .title-1{
+        font-size: 40px;
     }
 }
 
