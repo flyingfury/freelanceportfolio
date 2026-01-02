@@ -1,3 +1,8 @@
+@media only screen and (max-width: 795px){
+    .cards .card__title{
+        text-align: center;
+    }
+}
 @media only screen and (max-width: 720px){
     .header__title{
         font-size: 30px;
@@ -8,7 +13,7 @@
 
     .dark-mode-btn{
         order: 0;
-    }
+    }    
 }
 
 @media only screen and (max-width: 630px){
